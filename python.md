@@ -74,3 +74,138 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     x = 123
     x = str(x)
     print(x) # output will be "123", in terminal is doesn't show quotes, now we can perform all the string functions to x
+    
+    
+### String Fucntions
+
+
+##### String slicing
+> Returns the sub string from the original string, python has 2 slicing methods
+> one is using the in-build slice() method and another using the [:] array slice.
+
+`array slicing syntax`
+
+s = 'python'
+
+s[starting index : Ending index (inclusive) : number of indices to move]
+
+`Example`
+
+1.4 code
+    
+    s = "Hello, World!"
+
+    print(s[0:5])  # output, Hello  (0 th index to 5 th index)
+    print(s[2:5])  # output, llo    (2 nd index to 5 th index)
+    print(s[1:4])  # output, ell    (1 st index to 4 th index)
+
+
+    print(s[0:len(b):2]) # output, Hlo ol!         (0 th index till the length of the string, with escapes every 2nd character)
+    print(s[0:len(b)])   # output, Hello, World!   (0 th index till the length of the string)
+
+
+`built-in slice() syntax`
+
+slice(start index, end index, step count)
+
+start	Optional. An integer number specifying starting posiotion of slice. Default is 0
+
+end	    ending position of the slicing
+
+step	is is alos and Optional feild. An integer number specifying the step of the slicing. 1 step is default
+
+`Example`
+
+1.5 code
+
+    a = ["a", "b", "c", "d", "e"]
+    x = slice(2)
+    print(a[x]) # output, ['a', 'b', 'c']
+    
+    a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    x = slice(5, 8, 3)
+    print(a[x]) # output, [6]
+
+
+
+#### Highly used string methods in problem solving.
+
+>.upper()
+
+ converts the string to upper case
+
+>.lower()
+
+ converts the string to lower case
+ 
+>.count()
+
+ counts for a specific string
+ 
+>.split(" ")
+
+ split the string with commas and empty spaces
+
+>.strip()
+
+ removes leading white spaces
+ 
+>.replace()
+
+ replaces the mentioned character in the string
+ 
+>.concat() or use + for concatination
+
+ concates or combines two or more strings together
+ 
+>.capitalize()
+
+ makes first letter of a text or string to Capital
+
+>.title()
+
+ make all the first letter of every word to capital
+
+1.6 code
+
+        a = "Hello, World!"
+        print(a.upper())
+        # output, HELLO, WORLD!
+
+        a = "Hello, World!"
+        print(a.lower())
+        # output, hello, world!
+        
+        a = "12345"
+        print(a.count("1"))
+        # output, 1 (as only one  '1' is present)
+        
+        a = "Hello, World!"
+        b = a.split(",")
+        print(b)
+        # output, ['Hello', ' World!']
+
+        a = "     Hello, World!     "
+        print(a.strip())
+        # output, Hello, World!
+
+
+        a = "Hello, World!"
+        print(a.replace("H", "J"))
+        # output, Jello, world!
+
+        a = "Hello"
+        b = "World"
+        print(a + b)
+        # output, helloWorld
+
+        s = "hello, welcome to yogesh's git."
+        x = s.capitalize()
+        print (x)
+        # output, Hello, welcome to yogesh's git.
+
+
+        s = "hello, welcome to yogesh's git."
+        x = s.title()
+        print(x)
+        # output, Hello, Welcome To Yogesh'S Git.
