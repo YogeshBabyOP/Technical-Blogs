@@ -245,4 +245,68 @@ we can evaluate any expression to know whether it's True or False;
     print(bool(s)) # output, False (Empty string also False, notice s = "" != s = " ")
     
     
+#### Operators
+
+> Operators was used to do some tasks on variables.
+
+`Operators and Operands`
+
+> Operators are symbols/signs and Operands are variables.
+
+![operator-and-operands-2-1504587480626](https://user-images.githubusercontent.com/114099821/214359830-ecb29f88-5e18-4733-8001-1c4b57c52df2.png)
+
+
+#### Some important operators
+
+> Arithmetic operators
+> 
+> Assignment operators
+> 
+> Comparison operators
+> 
+> Logical operators
+> 
+> Bitwise operators
+
+##### Arithmetic operators
+> These are the simple mathematical operators.
+
+> It consists of : "+", "-", "*", "/", "%", "//"
+
+1.8 code
     
+    a = 5
+    b = 5
+
+    print (a + b) # output, 10
+    print (a - b) # output, 0
+    print (a * b) # output, 25
+    print (a / b) # output, 1
+    print (a % b) # output, 0. This is modulos operator
+    print (a //b) # output, 1. This is Floor Division, used to avoid floating points, and output was always an int type();
+    
+#### Assignment operators
+> Used to assign values to variables
+
+1.9 code
+
+    a = 5
+    a += 3 or a = a + 3 (both are same)
+    print(a) # output, 8
+
+    a = 5
+    a -= 3 or a = a - 3
+    print(a) # output, 2
+
+    a = 5
+    a *= 3 or a = a * 3
+    print(a) # output, 15
+
+    a = 5
+    a /= 3 or a = a / 3
+    print(a) # output, 1.666
+
+    a = 5
+    a //= 3 or a = a // 3
+    print(a) # output, 1
+
