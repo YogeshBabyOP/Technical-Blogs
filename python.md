@@ -1,10 +1,24 @@
-## Python 
+# welcome to python
+
+![RedHeartHeartGIF](https://user-images.githubusercontent.com/114099821/214374280-1009c440-a44a-43d2-96d5-ff07f773352e.gif)
+
+
+### "Unlocking the Power of Python: A Beginner's Guide to Mastering the World's Most Popular Programming Language"
+
+### In this blog, we are covering almost all we need to know, to start with python 👍
+
+### Let's get into introduction to python
 
 > Python is one of the most popular programming languages in present era, and it is easy for beginners to learn because of its readability which alomost similar to enligh words.
 
 > It is dynamically typed, so no need to provide the data types, it consists of both structure/procedural oriented and object-oriented programming.
 
 > Python is Interpreted language, which interprets line by line. 
+
+
+
+### Python Concepts Started.....
+
 
 #### Python Indentation
 > Indentation refers to the tab-spaces at the beginning of a code line.
