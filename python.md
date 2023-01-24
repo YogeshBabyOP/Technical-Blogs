@@ -310,3 +310,65 @@ we can evaluate any expression to know whether it's True or False;
     a //= 3 or a = a // 3
     print(a) # output, 1
 
+#### Comparison operators
+> Comparison operators are used to compare two values
+
+> True or False, this is the output for every comparision
+
+2.0 code
+    
+    a = 5
+    b = 5
+
+    print (a == b) # output, True
+    print (a != b) # output, False
+    print (a > b)  # output, False
+    print (a < b)  # output, False
+    print (a >= b) # output, True
+    print (a <= b) # output, True
+
+#### Logical opretors
+
+> Basially it do some logical operations, and returns either True or False.
+
+> logical and : returns True if and only if both the conditons are true.
+> logical or : returns True if any of the conditon is true.
+> logical not : it reverse the answer.
+
+2.1 code
+    
+    a = 5
+    print(a > 3 and a < 10)
+    # returns True because both conditions are correct.
+
+    a = 5
+    print(a > 10 or a < 10)
+    # returns True because one of the conditions are correct.
+
+
+    x = 5
+    print(not (x > 10 or x < 10))
+    # general answer was True.
+    # but returns False, because not is used to reverse the answer.
+    
+#### Bitwise operators
+
+> It works with a binary numbers.
+
+It contains the following;
+
+> & (AND)
+
+> | (OR)
+
+> ^ (XOR)
+
+> ~ (NOT)
+
+`we deep dive into bitwise operators in further topics (bit-manipulation)`
+
+
+    
+ ### Condiions and If-else Statements
+    
+    
