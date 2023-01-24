@@ -209,3 +209,40 @@ step	is is alos and Optional feild. An integer number specifying the step of the
         x = s.title()
         print(x)
         # output, Hello, Welcome To Yogesh'S Git.
+        
+#### Boolean
+
+Similar to other programming languages boolean represents two things True or False.
+we can evaluate any expression to know whether it's True or False;
+
+`Example`
+
+1.7 code
+
+    a = 5
+    b = 3
+    print(a > b) # output, True
+    
+    a = 5
+    b = 3
+    print(b > a) # output, False
+    
+    
+    In python, there is a built-in method bool(), to find it's nature.
+    
+    a = 5
+    print(bool(a)) # output, True
+    
+    a = 0
+    print(bool(a)) # output, False
+    
+    a = 1
+    print(bool(a)) # output, True
+    
+    > Since in computer therory, 1 refers to True and 0 refers to False.
+    
+    s = ""
+    print(bool(s)) # output, False (Empty string also False, notice s = "" != s = " ")
+    
+    
+    
