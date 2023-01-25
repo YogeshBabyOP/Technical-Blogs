@@ -382,9 +382,7 @@ It contains the following;
 `we deep dive into bitwise operators in further topics (bit-manipulation)`
 
 
-
-    
- ### Conditions and If-else Statements
+## Conditions and If-else Statements
  
 > As the name suggests, if else statements work based on the condition.
 
@@ -412,7 +410,25 @@ It contains the following;
     # output, "Eligible for license"
     Explanation : age >= 18 this condition satisfies the given input.
         
- 
+
+### elif (else if) 😶‍🌫️😶‍🌫️
+
+> just like if this is another checking condition. as simple it is.
+
+2.3 code
+
+    temperatue = 24
+    
+    if (temperatue > 30):
+        print("Too hot !!!")
+
+    elif (temperatue < 15):
+        print("Too cold !!!")
+        
+    else:
+        print("Moderate")
+        
+    # output, "Moderate"
  
     
     
