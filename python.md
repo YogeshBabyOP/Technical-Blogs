@@ -383,6 +383,6 @@ It contains the following;
 
 
     
- ### Condiions and If-else Statements
+ ### Conditions and If-else Statements
     
     
