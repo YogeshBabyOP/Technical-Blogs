@@ -413,7 +413,7 @@ It contains the following;
 
 ### elif (else if) 😶‍🌫️😶‍🌫️
 
-> just like if this is another checking condition. as simple it is.
+> just like if() this is another checking condition, if your code having many checking conditions we use elif() ! as simple it is.
 
 2.3 code
 
@@ -429,6 +429,3 @@ It contains the following;
         print("Moderate")
         
     # output, "Moderate"
- 
-    
-    
