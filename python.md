@@ -90,20 +90,20 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     print(x) # output will be "123", in terminal is doesn't show quotes, now we can perform all the string functions to x
     
     
-### String Fucntions
+## String Fucntions
 
 
-##### String slicing
+#### String slicing
 > Returns the sub string from the original string, python has 2 slicing methods
-> one is using the in-build slice() method and another using the [:] array slice.
+#### one is using the built-in slice() method and another using the [:] array slice.
 
-`array slicing syntax`
+#### array slicing syntax
 
 s = 'python'
 
 s[starting index : Ending index (inclusive) : number of indices to move]
 
-`Example`
+#### Example
 
 1.4 code
     
@@ -118,17 +118,17 @@ s[starting index : Ending index (inclusive) : number of indices to move]
     print(s[0:len(b)])   # output, Hello, World!   (0 th index till the length of the string)
 
 
-`built-in slice() syntax`
+#### built-in slice() syntax
 
 slice(start index, end index, step count)
 
-start	Optional. An integer number specifying starting posiotion of slice. Default is 0
+start - Optional. An integer number specifying starting posiotion of slice. Default is 0
 
-end	    ending position of the slicing
+end - ending position of the slicing
 
-step	is is alos and Optional feild. An integer number specifying the step of the slicing. 1 step is default
+step - is is alos and Optional feild. An integer number specifying the step of the slicing. 1 step is default
 
-`Example`
+#### Example
 
 1.5 code
 
@@ -382,7 +382,37 @@ It contains the following;
 `we deep dive into bitwise operators in further topics (bit-manipulation)`
 
 
+
     
  ### Conditions and If-else Statements
+ 
+> As the name suggests, if else statements work based on the condition.
+
+
+#### what is condition ?
+
+> The expression which was included in the if () part is said to be condition, it may be anything like mathematical expression, logic for your code etc.
+
+
+#### what is statement ?
+
+> followed by if and else conditions, these are the actions that we need to do, when the condition was True or False
+
+> If condition is True, then the block of code present inside the if or the if - statements was executed. otherwise else part comes into action. 
+
+2.2 code
+    
+    age = 20
+    
+    if (age >= 18):
+        print("Eligible for license")
+    else:
+        print("Not Eligible for license")
+        
+    # output, "Eligible for license"
+    Explanation : age >= 18 this condition satisfies the given input.
+        
+ 
+ 
     
     
