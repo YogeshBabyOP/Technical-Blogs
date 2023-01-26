@@ -432,3 +432,55 @@ It contains the following;
         print("Moderate")
         
     # output, "Moderate"
+
+
+## Loops
+> As the name itself defines repetition...
+
+#### What is a Loop??
+    > When we want to execute our code multiple times then we place our code in a loop
+    >> Basically a loop is also based on if - condition... The code under it only executes when the condition is met True...
+    >>> We have 2 Types of loops:
+            > for
+            > while
+## for - Loop
+> We use this loop when we know how many times our block of code needs to be executed...
+
+# Syntax
+   >> for i in range(starting_index, ending_index(inclusive), step_value)
+   Eg..
+   > for i in range(n):     (here i starts from 0,, i gets incremented by 1 every time after the block of code under it executes,, condition is i < n)
+   > for i in range(1,n,2): (here i starts from 1,, i gets incremented by 2 every time after the block of code under it executes.. condition is i < n)
+ 
+2.4 code
+
+    a = 0
+    for i in range(5):
+        a += 1   # a = a + 1
+    print(a)
+
+    # Output:
+        5
+ 
+## while - Loop
+> We use this loop when we want our block of code to get executed till the condition is met false..
+> Note.. 
+      > There is chance of loop getting stuck to infinity.. So make sure that the condition is met False later.. i.e auto increment feature not available like for             for-loop
+
+# Syntax
+  >> while(condition):
+  Eg..
+  > while(i < n):   (here loop executes till the condition (i < n) met False)
+ 
+2.5 code
+  
+    a = 0
+    while(a < 5):
+        a += 1    # a = a + 1
+        print(a)
+     
+    # Output:
+        1
+        2
+        3
+        4
