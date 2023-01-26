@@ -96,9 +96,9 @@ https://www.jetbrains.com/pycharm/download/#section=windows
 
 ### String slicing
 > Returns the sub string from the original string, python has 2 slicing methods
-#### one is using the built-in slice() method and another using the [:] array slice.
+### one is using the built-in slice() method and another using the [:] array slice.
 
-#### array slicing syntax
+### array slicing syntax
 
 s = 'python'
 
@@ -119,7 +119,7 @@ s[starting index : Ending index (inclusive) : number of indices to move]
     print(s[0:len(b)])   # output, Hello, World!   (0 th index till the length of the string)
 
 
-#### built-in slice() syntax
+### built-in slice() syntax
 
 slice(start index, end index, step count)
 
@@ -273,7 +273,7 @@ we can evaluate any expression to know whether it's True or False;
 ![operator-and-operands-2-1504587480626](https://user-images.githubusercontent.com/114099821/214359830-ecb29f88-5e18-4733-8001-1c4b57c52df2.png)
 
 
-#### Some important operators
+## Some important operators
 
 > Arithmetic operators
 > 
@@ -285,7 +285,7 @@ we can evaluate any expression to know whether it's True or False;
 > 
 > Bitwise operators
 
-##### Arithmetic operators
+### Arithmetic operators
 > These are the simple mathematical operators.
 
 > It consists of : "+", "-", "*", "/", "%", "//"
@@ -302,7 +302,7 @@ we can evaluate any expression to know whether it's True or False;
     print (a % b) # output, 0. This is modulos operator
     print (a //b) # output, 1. This is Floor Division, used to avoid floating points, and output was always an int type();
     
-#### Assignment operators
+### Assignment operators
 > Used to assign values to variables
 
 1.9 code
@@ -327,7 +327,7 @@ we can evaluate any expression to know whether it's True or False;
     a //= 3 or a = a // 3
     print(a) # output, 1
 
-#### Comparison operators
+### Comparison operators
 > Comparison operators are used to compare two values
 
 > True or False, this is the output for every comparision
@@ -344,7 +344,7 @@ we can evaluate any expression to know whether it's True or False;
     print (a >= b) # output, True
     print (a <= b) # output, True
 
-#### Logical opretors
+### Logical opretors
 
 > Basially it do some logical operations, and returns either True or False.
 
@@ -368,7 +368,7 @@ we can evaluate any expression to know whether it's True or False;
     # general answer was True.
     # but returns False, because not is used to reverse the answer.
     
-#### Bitwise operators
+### Bitwise operators
 
 > It works with a binary numbers.
 
