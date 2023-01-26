@@ -7,32 +7,6 @@
 
 ### In this blog, we are covering almost all we need to know, to start with python 👍
 
-### Let's get into introduction to python
-
-> Python is one of the most popular programming languages in present era, and it is easy for beginners to learn because of its readability which alomost similar to enligh words.
-
-> It is dynamically typed, so no need to provide the data types, it consists of both structure/procedural oriented and object-oriented programming.
-
-> Python is Interpreted language, which interprets line by line. 
-
-
-
-### Python Concepts Started.....
-
-
-#### Python Indentation
-> Indentation refers to the tab-spaces at the beginning of a code line.
-
-> Where in other programming languages like c, c++, Java we use curly braces {} as the block of code, but in python indentation acts as a block of code, indentation in Python is very important.
-
-
-#### Basic Example
-
-1.1 code
-
-    print("Hello World!)
-    
-    
 ### Installtion of Python
 
 #### Step : 1
@@ -45,9 +19,36 @@ Download (windows / macos)
 https://www.jetbrains.com/pycharm/download/#section=windows
 
 
-                                                    We are all set to go...😉😉
+                                                            We are all set to go...😉😍
 
-#### Data types
+
+### Let's get into introduction to python
+
+> Python is one of the most popular programming languages in present era, and it is easy for beginners to learn because of its readability which alomost similar to enligh words.
+
+> It is dynamically typed, so no need to provide the data types, it consists of both structure/procedural oriented and object-oriented programming.
+
+> Python is Interpreted language, which interprets line by line. 
+
+
+## Python Concepts Started.....😁
+
+
+### Python Indentation
+> Indentation refers to the tab-spaces at the beginning of a code line.
+
+> Where in other programming languages like c, c++, Java we use curly braces {} as the block of code, but in python indentation acts as a block of code, indentation in Python is very important.
+
+
+### Basic Example
+
+1.1 code
+
+    print("Hello World!)
+    
+    
+
+### Data types
 >since python was dynamically typed, we don't need to specify data types, python interpreter will understand those types at run time.
 
 1.2 code
@@ -64,7 +65,7 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     by the way! '#' refers to comments, which are used to make code more readable and understandable by end-users.
     
     
-#### Type Casting
+### Type Casting
 > which means, changing the data types of a variable like int -> float, float -> int, int -> string etc.
 
 1.3 code
@@ -93,7 +94,7 @@ https://www.jetbrains.com/pycharm/download/#section=windows
 ## String Fucntions
 
 
-#### String slicing
+### String slicing
 > Returns the sub string from the original string, python has 2 slicing methods
 #### one is using the built-in slice() method and another using the [:] array slice.
 
@@ -142,7 +143,7 @@ step - is is alos and Optional feild. An integer number specifying the step of t
 
 
 
-#### Highly used string methods in problem solving.
+### Highly used string methods in problem solving.
 
 >.upper()
 
@@ -224,7 +225,7 @@ step - is is alos and Optional feild. An integer number specifying the step of t
         print(x)
         # output, Hello, Welcome To Yogesh'S Git.
         
-#### Boolean
+### Boolean
 
 Similar to other programming languages boolean represents two things True or False.
 we can evaluate any expression to know whether it's True or False;
@@ -259,7 +260,7 @@ we can evaluate any expression to know whether it's True or False;
     print(bool(s)) # output, False (Empty string also False, notice s = "" != s = " ")
     
     
-#### Operators
+### Operators
 
 > Operators was used to do some tasks on variables.
 
