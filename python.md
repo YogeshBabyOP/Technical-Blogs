@@ -401,6 +401,8 @@ It contains the following;
 
 > If condition is True, then the block of code present inside the if or the if - statements was executed. otherwise else part comes into action. 
 
+### if () and else() example 
+
 2.2 code
     
     age = 20
@@ -434,22 +436,28 @@ It contains the following;
     # output, "Moderate"
 
 
-## Loops
-> As the name itself defines repetition...
+## Loops (Control Statements)
+> As the name itself defines, we can control the execution of loops
 
-#### What is a Loop??
-    > When we want to execute our code multiple times then we place our code in a loop
-    >> Basically a loop is also based on if - condition... The code under it only executes when the condition is met True...
-    >>> We have 2 Types of loops:
-            > for
-            > while
+#### What is a Loop ??
+
+When we want to execute our code multiple times then we place our code in a loop
+Basically a loop is also based on if - condition, The code inside it only executes when the condition is met True.
+We have 2 Types of loops:
+> for and 
+> while
+
+
 ## for - Loop
 > We use this loop when we know how many times our block of code needs to be executed...
 
-# Syntax
-   >> for i in range(starting_index, ending_index(inclusive), step_value)
-   Eg..
+#### Syntax
+   > for i in range(starting_index, ending_index(inclusive), step_value)
+
+
    > for i in range(n):     (here i starts from 0,, i gets incremented by 1 every time after the block of code under it executes,, condition is i < n)
+
+
    > for i in range(1,n,2): (here i starts from 1,, i gets incremented by 2 every time after the block of code under it executes.. condition is i < n)
  
 2.4 code
@@ -463,14 +471,30 @@ It contains the following;
         10
  
 ## while - Loop
-> We use this loop when we want our block of code to get executed till the condition is met false..
-> Note.. 
-      > There is chance of loop getting stuck to infinity.. So make sure that the condition is met False later.. i.e auto increment feature not available like for             for-loop
 
-# Syntax
-  >> while(condition):
-  Eg..
-  > while(i < n):   (here loop executes till the condition (i < n) met False)
+> We use this loop when we want our block of code to get executed till the condition is met False.
+
+> Make sure that the condition is met False in future, since there is a chance of loop getting stuck to infinity
+### (cause, love you for infinity..♾️💚).
+
+> The reason is, we know that the while loops run until the conditions holds True, so if there is no False condition the loops runs for infinite times.
+
+#### Syntax
+
+
+    while (condition == True):
+
+      // Group of statements
+      // increment/decrement
+  
+  > Example
+  
+      n = 5
+      while (i < n):
+          print(i)
+          i = i + 1
+          
+      (here loop executes till the condition (i < n) met False)
  
 2.5 code
   
