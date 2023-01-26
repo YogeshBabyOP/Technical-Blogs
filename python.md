@@ -24,7 +24,7 @@ https://www.jetbrains.com/pycharm/download/#section=windows
 
 ### Let's get into introduction to python
 
-> Python is one of the most popular programming languages in present era, and it is easy for beginners to learn because of its readability which alomost similar to enligh words.
+> Python is one of the most popular programming languages in present era, and it is easy for beginners to learn because of its readability which alomost similar to english words.
 
 > It is dynamically typed, so no need to provide the data types, it consists of both structure/procedural oriented and object-oriented programming.
 
@@ -180,6 +180,8 @@ step - is is alos and Optional feild. An integer number specifying the step of t
 >.title()
 
  make all the first letter of every word to capital
+
+### clear example
 
 1.6 code
 
