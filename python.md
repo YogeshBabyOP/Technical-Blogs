@@ -456,11 +456,11 @@ It contains the following;
 
     a = 0
     for i in range(5):
-        a += 1   # a = a + 1
+        a += i   # a = a + i
     print(a)
 
     # Output:
-        5
+        10
  
 ## while - Loop
 > We use this loop when we want our block of code to get executed till the condition is met false..
