@@ -390,12 +390,12 @@ It contains the following;
 > As the name suggests, if else statements work based on the condition.
 
 
-#### what is condition ?
+### what is condition ?
 
 > The expression which was included in the if () part is said to be condition, it may be anything like mathematical expression, logic for your code etc.
 
 
-#### what is statement ?
+### what is statement ?
 
 > followed by if and else conditions, these are the actions that we need to do, when the condition was True or False
 
@@ -439,7 +439,7 @@ It contains the following;
 ## Loops (Control Statements)
 > As the name itself defines, we can control the execution of loops
 
-#### What is a Loop ??
+### What is a Loop ??
 
 When we want to execute our code multiple times then we place our code in a loop
 Basically a loop is also based on if - condition, The code inside it only executes when the condition is met True.
@@ -451,7 +451,7 @@ We have 2 Types of loops:
 ## for - Loop
 > We use this loop when we know how many times our block of code needs to be executed...
 
-#### Syntax
+### Syntax
    > for i in range(starting_index, ending_index(inclusive), step_value)
 
 
