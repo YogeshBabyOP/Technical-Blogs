@@ -519,6 +519,10 @@ We have 2 Types of loops:
 
 > to create a list use [] brackets or list().
 
+### These are the complete properties of list.
+
+![p](https://user-images.githubusercontent.com/114099821/215129878-602df074-0585-4b3a-bfe9-d2c8af86e9a5.png)
+
 
 ## Syntax 
 
