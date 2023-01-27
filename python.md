@@ -509,3 +509,49 @@ We have 2 Types of loops:
         3
         4
         5
+
+
+# Lists (Data Structures or what 🫡🤨)
+
+> Lists are used to store multiple items in a single variable, when you are working with large data, we can store the data in the lists.
+
+> It Provides various functionalites.
+
+> to create a list use [] brackets or list().
+
+
+## Syntax 
+
+## mylist = [] or mylist = list()
+
+#### we access the list elements using index, the index starts from 0, and to get length of list use --> len(mylist)
+
+2.6 code
+   
+## Accessing list elements by using index.
+   
+    mylist = [1, 2, 3, 4, 5]
+
+    print(mylist[0])  # output, 1
+
+    print(mylist[2])  # output, 3
+   
+## using for loop to print list items.
+   
+   
+     mylist = ["BMW", "Rolce Roice", "Ferrari"]
+
+     for i in range(len(mylist)):
+
+        print(mylist[i])
+       
+    # output :
+
+    BMW
+    Rolce Roice
+    Ferrari
+      
+   
+   
+   
+   
