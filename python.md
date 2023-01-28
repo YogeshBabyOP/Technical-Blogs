@@ -1,6 +1,6 @@
-# welcome to python
+# welcome to python ! 
 
-![RedHeartHeartGIF](https://user-images.githubusercontent.com/114099821/214374280-1009c440-a44a-43d2-96d5-ff07f773352e.gif)
+ ` Trust me ! Python is really OP ❤️💚💙 `       ![RedHeartHeartGIF](https://user-images.githubusercontent.com/114099821/214374280-1009c440-a44a-43d2-96d5-ff07f773352e.gif)
 
 
 ### "Unlocking the Power of Python: A Beginner's Guide to Mastering the World's Most Popular Programming Language"
