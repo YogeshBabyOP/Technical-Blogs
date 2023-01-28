@@ -511,7 +511,15 @@ We have 2 Types of loops:
         5
 
 
-# Lists (Data Structures or what 🫡🤨)
+
+# Data Strucutures in Python (Easy or What 🤣☹️)
+
+### built-in Data Structures present in python.
+
+![pds](https://user-images.githubusercontent.com/114099821/215276904-3b5bc355-b7a1-4e56-983a-b78ea3142130.png)
+
+
+# Lists
 
 > Lists are used to store multiple items in a single variable, when you are working with large data, we can store the data in the lists.
 
