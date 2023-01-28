@@ -565,4 +565,55 @@ We have 2 Types of loops:
       
    
    
-   # Tuples
+# Tuples
+   
+> Similar to Lists, tuples are used to store multiple values.
+
+some qucik picture of tuple!
+
+![tuples-in-python](https://user-images.githubusercontent.com/114099821/215277704-29543f9e-2c18-4e04-9d60-48eada117282.png)
+
+
+### Applications of Tuples
+
+> Tuples are unchangeable it means that we cannot change, add or remove items after the tuple has been created.
+
+> If follows the order, and allows duplicate values, we can access the tuple elements using Index.
+
+2.7 code
+
+      myTuple = ("apple", "banana", "Papaya", "Mango", "Berri")
+      print(myTuple)
+      # output, ('apple', 'banana', 'Papaya', 'Mango', 'Berri')
+      
+      
+      # as tuples are unchangable, if you want to update it rises error.
+      myTuple = ("Apple", "Banana", "Papaya", "Mango", "Berri")
+      myTuple[0] = "Grapes"
+      
+      # can you expect output ! ok, this is the update!
+
+      Traceback (most recent call last):
+      File "./prog.py", line 2, in <module>
+      TypeError: 'tuple' object does not support item assignment
+      
+      
+      # what if you want to update tuple, well !
+      
+      # change tuple to list and do your stuff, and again change list to tuple ! I'm not cheating 😁
+      
+      myTuple = ("Apple", "Banana", "Papaya", "Mango", "Berri")
+      myList = list(myTuple)
+      myList[0] = "Grapes"
+      myTuple = tuple(myList)
+      print(myTuple)
+      
+      # output, ('Grapes', 'Banana', 'Papaya', 'Mango', 'Berri')
+
+      
+      
+
+  
+    
+
+
