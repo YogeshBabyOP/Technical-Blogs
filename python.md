@@ -616,16 +616,18 @@ some qucik picture of tuple!
 
 > Dictionary items are ordered, changeable, it does not allow duplicates.
 
-> Dictionary items are presented in key : value pairs, data will accessed by key name, just like
-## javaScript and json format (Some strange name !!!)
+> Dictionary items are presented in key : value pairs, data will accessed by key name.
+> 
+## the syntax is similar to, javaScript objects and json format (Some strange name !!!)
 
 ![HahaGIF](https://user-images.githubusercontent.com/114099821/215552386-43ebdc65-849d-4254-9a09-383a8432b26c.gif)
 
 
 ### Syntax :
 
-#### dictionary_name {
+#### dictionary_name = {
    key : value,
+   
 }
 
 
@@ -658,4 +660,45 @@ some qucik picture of tuple!
     # output : (printing only values)
     # yogeshbabyop
     # 19
+    
+### some important methods using Food Example.
 
+     myFood = {
+       "curry": "chicken",
+       "rice": "biryani",
+       "price": 500
+      }
+      
+      get - method
+      
+      # return the value by correspoding key using 'get' method.
+      x = myFood.get("curry")
+      print(x)
+      # output, chicken
+      
+      array - method
+
+      # return the value by correspoding key using array method.
+      x = myFood["rice"]
+      print(x)
+      # output, biryani
+
+      .keys()
+
+      # get all the keys in the array format.
+      x = myFood.keys()
+      print(x)
+      #output, dict_keys(['curry', 'rice', 'price'])
+      
+      .update()
+
+      before update method : {'curry': 'chicken', 'rice': 'biryani', 'price': 500}
+
+      # add elements to the myFood dictionary.
+      myFood.update({"drink": "thumbs'up"})
+      print(myFood)
+
+      after update method : {'curry': 'chicken', 'rice': 'biryani', 'price': 500, 'drink': "thumbs'up"}
+      
+
+# Sets
