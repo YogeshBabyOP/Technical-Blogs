@@ -614,10 +614,48 @@ some qucik picture of tuple!
 
 # Dictionary
 
-Dictionary items are ordered, changeable, it does not allow duplicates.
+> Dictionary items are ordered, changeable, it does not allow duplicates.
 
-Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
-  
+> Dictionary items are presented in key : value pairs, data will accessed by key name, just like
+## javaScript and json format (Some strange name !!!)
+
+![HahaGIF](https://user-images.githubusercontent.com/114099821/215552386-43ebdc65-849d-4254-9a09-383a8432b26c.gif)
+
+
+### Syntax :
+
+#### dictionary_name {
+   key : value,
+}
+
+
+### Example :
+
+2.8 code :
     
+    myDict =	{
+      "name": "yogeshbabyop",
+      "age": "19",
+    }
+    print(myDict) 
+    # output, {'name': 'yogeshbabyop', 'age': '19'}
 
+
+    # if you want to get the key's in dictionary :
+
+    for i in myDict:
+       print(i)
+
+    # output : (printing only keys)
+    # name
+    # age
+
+    # if you want to get the value's in dictionary :
+
+    for i in myDict:
+       print(myDict[i])
+
+    # output : (printing only values)
+    # yogeshbabyop
+    # 19
 
