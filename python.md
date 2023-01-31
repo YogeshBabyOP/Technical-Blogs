@@ -591,7 +591,7 @@ some qucik picture of tuple!
       myTuple = ("Apple", "Banana", "Papaya", "Mango", "Berri")
       myTuple[0] = "Grapes"
       
-      # can you expect output ! ok, this is the update!
+      # can you expect output ! ok, this is the output!
 
       Traceback (most recent call last):
       File "./prog.py", line 2, in <module>
@@ -600,12 +600,12 @@ some qucik picture of tuple!
       
       # what if you want to update tuple, well !
       
-      # change tuple to list and do your stuff, and again change list to tuple ! I'm not cheating 😁
+      # change (tuple to list) and do your stuff, and re change (list to tuple) ! I'm not cheating 😁
       
       myTuple = ("Apple", "Banana", "Papaya", "Mango", "Berri")
-      myList = list(myTuple)
+      myList = list(myTuple) # creating list that holds tuple data.
       myList[0] = "Grapes"
-      myTuple = tuple(myList)
+      myTuple = tuple(myList) # then updating the tuple with list
       print(myTuple)
       
       # output, ('Grapes', 'Banana', 'Papaya', 'Mango', 'Berri')
