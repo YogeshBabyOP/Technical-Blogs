@@ -702,3 +702,7 @@ some qucik picture of tuple!
       
 
 # Sets
+
+> if you want to work with all unique elements then go for Sets.
+
+> Since Sets are mutable, unordered and also unindexed, it does not allow duplicate values.
