@@ -48,7 +48,7 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     
     
 
-### Data types
+## Data types
 >since python was dynamically typed, we don't need to specify data types, python interpreter will understand those types at run time.
 
 1.2 code
@@ -65,7 +65,7 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     by the way! '#' refers to comments, which are used to make code more readable and understandable by end-users.
     
     
-### Type Casting
+## Type Casting
 > which means, changing the data types of a variable like int -> float, float -> int, int -> string etc.
 
 1.3 code
@@ -129,7 +129,7 @@ end - ending position of the slicing
 
 step - is is alos and Optional feild. An integer number specifying the step of the slicing. 1 step is default
 
-#### Example
+### Example
 
 1.5 code
 
@@ -143,7 +143,7 @@ step - is is alos and Optional feild. An integer number specifying the step of t
 
 
 
-### Highly used string methods in problem solving.
+## Highly used string methods in problem solving.
 
 >.upper()
 
@@ -181,7 +181,7 @@ step - is is alos and Optional feild. An integer number specifying the step of t
 
  make all the first letter of every word to capital
 
-### clear example
+## clear example
 
 1.6 code
 
@@ -227,10 +227,13 @@ step - is is alos and Optional feild. An integer number specifying the step of t
         print(x)
         # output, Hello, Welcome To Yogesh'S Git.
         
-### Boolean
+## Boolean
 
 Similar to other programming languages boolean represents two things True or False.
 we can evaluate any expression to know whether it's True or False;
+
+# True or False                    !                         ![download](https://user-images.githubusercontent.com/114099821/215993846-382f9f87-16c6-4d8a-82e4-c1827b1899a5.jpg)
+
 
 `Example`
 
