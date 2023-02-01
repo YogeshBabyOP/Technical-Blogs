@@ -707,3 +707,10 @@ some qucik picture of tuple!
 > if you want to work with all unique elements then go for Sets.
 
 > Since Sets are mutable, unordered and also unindexed, it does not allow duplicate values.
+
+![python-sets](https://user-images.githubusercontent.com/114099821/215988739-316d76af-3e7c-47b9-960c-a60fa828a065.jpg)
+
+
+# Syntax : 
+
+#### mySet = {} or mySet = set()
