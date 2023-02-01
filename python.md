@@ -615,6 +615,12 @@ some qucik picture of tuple!
 
 # Dictionary
 
+> similar to normal english dictionary, it contains word : meaning of the word, in python dictionary, it contains key-values.
+
+## some paintings are needed man 🎨🖼️
+
+![pythonblogg](https://user-images.githubusercontent.com/114099821/215992603-eb684235-fecd-477a-8669-6ca57cf0c429.png)
+
 > Dictionary items are ordered, changeable, it does not allow duplicates.
 
 > Dictionary items are presented in key : value pairs, data will accessed by key name.
@@ -662,7 +668,7 @@ some qucik picture of tuple!
     # yogeshbabyop
     # 19
     
-### some important methods using Food Example.
+### some important Dictionary methods using Food Example.
 
      myFood = {
        "curry": "chicken",
@@ -714,3 +720,5 @@ some qucik picture of tuple!
 # Syntax : 
 
 #### mySet = {} or mySet = set()
+
+
