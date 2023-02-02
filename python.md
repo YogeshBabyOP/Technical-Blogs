@@ -729,8 +729,8 @@ some qucik picture of tuple!
 
 2.9 code
  
-   mySet = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}
-   print(mySet) # output, {1, 2, 3} (may be some random positions since set is unordered and unindexed.
-   
-   The output set only having all Unique values
+        mySet = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5}
+        print(mySet) # output, {1, 2, 3} (may be some random positions since set is unordered and unindexed.
+
+        The output set only having all Unique values
 
