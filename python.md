@@ -734,3 +734,10 @@ some qucik picture of tuple!
 
         The output set only having all Unique values
 
+## Accessing Set
+
+       mySet = {1, 2, 3, 4, 5}
+       mySet.add(6) // adding elements to set
+       print(mySet) // output, {1, 2, 3, 4, 5}
+
+       
