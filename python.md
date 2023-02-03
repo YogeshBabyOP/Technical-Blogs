@@ -738,6 +738,20 @@ some qucik picture of tuple!
 
        mySet = {1, 2, 3, 4, 5}
        mySet.add(6) // adding elements to set
-       print(mySet) // output, {1, 2, 3, 4, 5}
+       print(mySet) // output, {1, 2, 3, 4, 5, 6}
+       
+       
+       looping through mySet:
+       
+       for i in mySet:
+           print(i)
+           
+       # output :
+          1 
+          2 
+          3
+          4
+          5
+          6
 
        
