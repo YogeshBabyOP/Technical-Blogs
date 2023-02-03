@@ -44,12 +44,12 @@ https://www.jetbrains.com/pycharm/download/#section=windows
 
 1.1 code
 
-    print("Hello World!)
+    print("Hello World!")
     
     
 
 ## Data types
->since python was dynamically typed, we don't need to specify data types, python interpreter will understand those types at run time.
+> since python was dynamically typed, we don't need to specify data types, python interpreter will understand those types at run time.
 
 1.2 code
     
@@ -459,7 +459,6 @@ We have 2 Types of loops:
 
 
    > for i in range(n):     (here i starts from 0,, i gets incremented by 1 every time after the block of code under it executes,, condition is i < n)
-
 
    > for i in range(1,n,2): (here i starts from 1,, i gets incremented by 2 every time after the block of code under it executes.. condition is i < n)
  
