@@ -388,21 +388,30 @@ It contains the following;
 `we deep dive into bitwise operators in further topics (bit-manipulation)`
 
 
-# Conditions and If-else Statements
- 
-> As the name suggests, if else statements work based on the condition.
+# If-else  (Conditional Statements)
 
+![if](https://user-images.githubusercontent.com/114099821/216754938-10a9b8e2-b882-4263-9f78-177ed581f5a1.png)
+
+> As the name suggests, if else statements work based on the condition.
 
 ## what is condition ?
 
 > The expression which was included in the if () part is said to be condition, it may be anything like mathematical expression, logic for your code etc.
-
 
 ## what is statement ?
 
 > followed by if and else conditions, these are the actions that we need to do, when the condition was True or False
 
 > If condition is True, then the block of code present inside the if or the if - statements was executed. otherwise else part comes into action. 
+
+### syntax :
+
+      if (condition):
+           statements
+      else:
+           statements
+           
+      // if the condition in if () block is True then only, the if () statements gets executed otherwise the interpretor goes for else () part.
 
 ### if () and else() example 
 
@@ -461,11 +470,10 @@ print("Hello Worl'd") ... you get the point, you write print statement for 10 ti
 ### What is a Loop ??
 
 When we want to execute our code multiple times then we place our code in a loop
-Basically a loop is power so we can do our stuff for infinite times.
+Basically loop is a power that allows us to do our stuff for many times. (possible Infinite also)
 We have 2 Types of loops:
 > for and 
 > while
-
 
 ## for - Loop
 > We use this loop when we know how many times our block of code needs to be executed...
