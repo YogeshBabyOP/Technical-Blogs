@@ -33,12 +33,10 @@ https://www.jetbrains.com/pycharm/download/#section=windows
 
 ## Python Concepts Started.....😁
 
-
 ### Python Indentation
 > Indentation refers to the tab-spaces at the beginning of a code line.
 
 > Where in other programming languages like c, c++, Java we use curly braces {} as the block of code, but in python indentation acts as a block of code, indentation in Python is very important.
-
 
 ### Basic Example
 
@@ -47,7 +45,6 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     print("Hello World!")
     
     
-
 ## Data types
 > since python was dynamically typed, we don't need to specify data types, python interpreter will understand those types at run time.
 
@@ -142,7 +139,6 @@ step - is is alos and Optional feild. An integer number specifying the step of t
     print(a[x]) # output, [6]
 
 
-
 ## Highly used string methods in problem solving.
 
 >.upper()
@@ -181,7 +177,7 @@ step - is is alos and Optional feild. An integer number specifying the step of t
 
  make all the first letter of every word to capital
 
-## clear example
+## clear example for above string methods
 
 1.6 code
 
@@ -505,8 +501,7 @@ We have 2 Types of loops:
 
 > The reason is, we know that the while loops run until the conditions holds True, so if there is no False condition the loops runs for infinite times.
 
-#### Syntax
-
+#### Syntax :
 
     while (condition == True):
 
@@ -536,7 +531,6 @@ We have 2 Types of loops:
         3
         4
         5
-
 
 
 # Data Strucutures in Python (Easy or What 🤣☹️)
@@ -589,8 +583,7 @@ We have 2 Types of loops:
     BMW
     Rolce Roice
     Ferrari
-      
-   
+       
    
 # Tuples
    
@@ -636,8 +629,7 @@ some qucik picture of tuple!
       print(myTuple)
       
       # output, ('Grapes', 'Banana', 'Papaya', 'Mango', 'Berri')
-
-      
+    
 
 # Dictionary
 
@@ -662,7 +654,6 @@ some qucik picture of tuple!
    key : value,
    
 }
-
 
 ### Example :
 
@@ -776,5 +767,3 @@ some qucik picture of tuple!
           4
           5
           6
-
-       
