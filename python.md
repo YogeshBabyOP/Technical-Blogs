@@ -388,17 +388,17 @@ It contains the following;
 `we deep dive into bitwise operators in further topics (bit-manipulation)`
 
 
-## Conditions and If-else Statements
+# Conditions and If-else Statements
  
 > As the name suggests, if else statements work based on the condition.
 
 
-### what is condition ?
+## what is condition ?
 
 > The expression which was included in the if () part is said to be condition, it may be anything like mathematical expression, logic for your code etc.
 
 
-### what is statement ?
+## what is statement ?
 
 > followed by if and else conditions, these are the actions that we need to do, when the condition was True or False
 
@@ -439,13 +439,29 @@ It contains the following;
     # output, "Moderate"
 
 
-## Loops (Control Statements)
-> As the name itself defines, we can control the execution of loops
+# Loops (Control Statements)
+
+### what if I ask you to print "Hello world'" for 10 times, what should you do ?? Before knowing loops concept you write like this...
+
+print("Hello Worl'd")
+
+print("Hello Worl'd")
+
+print("Hello Worl'd")
+
+print("Hello Worl'd")
+
+print("Hello Worl'd") ... you get the point, you write print statement for 10 times, what if I ask for 100000 times ?
+
+### Here loop's are comes to picture, basically loops are a method that are used to repeat some code how many times you want. As the name itself defines, we can control the execution of loops
+
+![loopp](https://user-images.githubusercontent.com/114099821/216662985-4eeec24a-9379-499e-ac5e-8c3497e2c80e.png)
+
 
 ### What is a Loop ??
 
 When we want to execute our code multiple times then we place our code in a loop
-Basically a loop is also based on if - condition, The code inside it only executes when the condition is met True.
+Basically a loop is power so we can do our stuff for infinite times.
 We have 2 Types of loops:
 > for and 
 > while
@@ -465,7 +481,7 @@ We have 2 Types of loops:
 2.4 code
 
     a = 0
-    for i in range(5):
+    for i in range(5): // range is a key word that tells the scale of range of the for loop, range starts from 0 by-default
         a += i   # a = a + i
     print(a)
 
