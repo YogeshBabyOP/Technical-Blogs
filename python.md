@@ -757,10 +757,12 @@ some qucik picture of tuple!
        
        looping through mySet:
        
+       mySet = {1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6};
+       
        for i in mySet:
            print(i)
            
-       # output :
+       # output : # by default it removes all the repeated elements, nature of Set
           1 
           2 
           3
