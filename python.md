@@ -44,7 +44,6 @@ https://www.jetbrains.com/pycharm/download/#section=windows
 
     print("Hello World!")
     
-    
 ## Data types
 > since python was dynamically typed, we don't need to specify data types, python interpreter will understand those types at run time.
 
@@ -60,7 +59,6 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     b = "python" or b = 'python'
     
     by the way! '#' refers to comments, which are used to make code more readable and understandable by end-users.
-    
     
 ## Type Casting
 > which means, changing the data types of a variable like int -> float, float -> int, int -> string etc.
@@ -630,7 +628,6 @@ some qucik picture of tuple!
       
       # output, ('Grapes', 'Banana', 'Papaya', 'Mango', 'Berri')
     
-
 # Dictionary
 
 > similar to normal english dictionary, it contains word : meaning of the word, in python dictionary, it contains key-values.
@@ -648,9 +645,9 @@ some qucik picture of tuple!
 ![HahaGIF](https://user-images.githubusercontent.com/114099821/215552386-43ebdc65-849d-4254-9a09-383a8432b26c.gif)
 
 
-### Syntax :
+## Syntax :
 
-#### dictionary_name = {
+### dictionary_name = {
    key : value,
    
 }
@@ -724,7 +721,6 @@ some qucik picture of tuple!
 
       after update method : {'curry': 'chicken', 'rice': 'biryani', 'price': 500, 'drink': "thumbs'up"}
       
-
 # Sets
 
 > if you want to work with all unique elements then go for Sets.
@@ -752,8 +748,7 @@ some qucik picture of tuple!
 
        mySet = {1, 2, 3, 4, 5}
        mySet.add(6) // adding elements to set
-       print(mySet) // output, {1, 2, 3, 4, 5, 6}
-       
+       print(mySet) // output, {1, 2, 3, 4, 5, 6}  
        
        looping through mySet:
        
