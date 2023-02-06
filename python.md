@@ -766,7 +766,18 @@ some qucik picture of tuple!
           6
           
        # Removing Set Elements
+       
        mySet = {"apple", "banana", "cherry"}
        mySet.remove("cherry")
        print(mySet) # output, {"apple", "banana"}
+       
+       # Merging two sets
+       
+       set1 = {1, 2, 3, 4, 5}
+       set2 = {"a", "b", "c", "d", "e"}
+       
+       set3 = set1.union(set2)
+       print(set3)
+       
+       # output,  {1, 2, 3, 4, 5, 'a', 'c', 'b', 'd', 'e'} not exactly this, for every time you run the output will changes, cause set is unordered bro 😏😏
        
