@@ -781,3 +781,41 @@ some qucik picture of tuple!
        
        # output,  {1, 2, 3, 4, 5, 'a', 'c', 'b', 'd', 'e'} not exactly this, for every time you run the output will changes, cause set is unordered bro 😏😏
        
+
+## Most import Set methods for problem solving
+
+> .add()
+> 
+> add elements to the set
+
+>.pop()
+>
+> removes last element of set
+
+> .clear()
+> 
+> clear all elements in the set
+
+> .update()
+> method updates the current set, by adding items from another set (or any other iterable).
+
+## Example 
+
+3.0 code
+
+    mySet = {1, 2, 3, 4, 5}
+    mySet.add(6)
+    # {1, 2, 3, 4, 5, 6}
+    
+    mySet.pop()
+    #{1, 2, 3, 4, 5}
+    
+    mySet.clear()
+    # set()
+    
+    x = {"apple", "banana", "kiwi"}
+    y = {"BMW", "Rolce Roice", "Ferrari"}
+    x.update(y) 
+    print(x)
+
+    # {'kiwi', 'Ferrari', 'apple', 'Rolce Roice', 'BMW', 'banana'}
