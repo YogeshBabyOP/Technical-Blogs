@@ -764,3 +764,9 @@ some qucik picture of tuple!
           4
           5
           6
+          
+       # Removing Set Elements
+       mySet = {"apple", "banana", "cherry"}
+       mySet.remove("cherry")
+       print(mySet) # output, {"apple", "banana"}
+       
