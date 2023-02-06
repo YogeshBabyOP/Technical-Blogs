@@ -24,6 +24,8 @@ https://www.jetbrains.com/pycharm/download/#section=windows
 
 ### Let's get into introduction to python
 
+> credits : w3 Schools and Bro Code (youtube)
+
 > Python is one of the most popular programming languages in present era, and it is easy for beginners to learn because of its readability which alomost similar to english words.
 
 > It is dynamically typed, so no need to provide the data types, it consists of both structure/procedural oriented and object-oriented programming.
@@ -797,6 +799,7 @@ some qucik picture of tuple!
 > clear all elements in the set
 
 > .update()
+> 
 > method updates the current set, by adding items from another set (or any other iterable).
 
 ## Example 
