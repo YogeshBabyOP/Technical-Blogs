@@ -822,3 +822,5 @@ some qucik picture of tuple!
     print(x)
 
     # {'kiwi', 'Ferrari', 'apple', 'Rolce Roice', 'BMW', 'banana'}
+   
+## These are the basic stuff about Data Structures in Python 🫡💕
