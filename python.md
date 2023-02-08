@@ -115,7 +115,6 @@ s[starting index : Ending index (inclusive) : number of indices to move]
     print(s[0:len(b):2]) # output, Hlo ol!         (0 th index till the length of the string, with escapes every 2nd character)
     print(s[0:len(b)])   # output, Hello, World!   (0 th index till the length of the string)
 
-
 ### built-in slice() syntax
 
 slice(start index, end index, step count)
