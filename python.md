@@ -848,7 +848,7 @@ lambda arguments : expression (lambda is a keyword)
      when we calling variable x with arugument as 5 it works as 
      (lambda a : a + 10 --> a : 5 + 10 --> a : 15) 🤨🤨
     
-     # lambda funtion with two argument.
+     # lambda funtion with two arguments.
   
      x = lambda a, b: a * b
      print(x(3, 5))
