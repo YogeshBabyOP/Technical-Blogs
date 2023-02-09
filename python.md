@@ -821,5 +821,35 @@ some qucik picture of tuple!
     print(x)
 
     # {'kiwi', 'Ferrari', 'apple', 'Rolce Roice', 'BMW', 'banana'}
-   
-## These are the basic stuff about Data Structures in Python 🫡💕
+
+## Lamda Functions
+
+> As like as functions more like anonymous fuction, we create a variable and store the lambda function in that.
+> Lamda Functions having expression and arguments, but it takes many arguments, but can only have one expression.
+
+### syntax
+
+lambda arguments : expression (lambda is a keyword)
+
+### Example
+
+3.1 code 
+
+     # lambda funtion with single argument.
+     
+     x = lambda a : a + 10
+     print(x(5))
+     # output, 15
+     
+     x is a variable that holds the lambda function.
+     a is the arugument.
+     + (a + 10) operation is a expression.
+     
+     when we calling variable x with arugument as 5 it works as 
+     (lambda a : a + 10 --> a : 5 + 10 --> a : 15) 🤨🤨
+    
+     # lambda funtion with two argument.
+  
+     x = lambda a, b: a * b
+     print(x(3, 5))
+     # output, 15
