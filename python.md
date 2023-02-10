@@ -782,7 +782,6 @@ some qucik picture of tuple!
        
        # output,  {1, 2, 3, 4, 5, 'a', 'c', 'b', 'd', 'e'} not exactly this, for every time you run the output will changes, cause set is unordered bro 😏😏
        
-
 ## Most import Set methods for problem solving
 
 > .add()
