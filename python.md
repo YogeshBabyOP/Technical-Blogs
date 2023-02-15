@@ -859,3 +859,23 @@ lambda arguments : expression (lambda is a keyword)
      print(x(1, 2, 3))
      # output, 6
 
+# functions
+
+> functions are some block of code which only runs when it was called. You can pass data, known as parameters, into a function.
+
+## syntax 
+def myFunction ():
+    # block of code
+
+## example
+
+3.2 code
+
+   def myFunction ():
+      print("YogeshOP")
+
+     # if you want to access this function, just call as myFunction();
+
+     myFunction()
+
+     # output, YogeshOP
