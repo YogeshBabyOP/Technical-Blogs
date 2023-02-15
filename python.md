@@ -852,3 +852,10 @@ lambda arguments : expression (lambda is a keyword)
      x = lambda a, b: a * b
      print(x(3, 5))
      # output, 15
+     
+     # lambda function with three arguments.
+     
+     x = lambda a, b, c: a + b + c
+     print(x(1, 2, 3))
+     # output, 6
+
