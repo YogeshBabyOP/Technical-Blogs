@@ -882,3 +882,5 @@ lambda arguments : expression (lambda is a keyword)
           myFunction()
 
           # output, YogeshOP 
+          
+> Basically functions/Methods are used to do some task that can may be used in future. We just create a function and write our code, when we want to do that task just call it in main function or driver code by their name.
