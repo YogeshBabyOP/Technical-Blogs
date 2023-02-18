@@ -884,3 +884,29 @@ lambda arguments : expression (lambda is a keyword)
           # output, YogeshOP 
           
 > Basically functions/Methods are used to do some task that can may be used in future. We just create a function and write our code, when we want to do that task just call it in main function or driver code by their name.
+
+## Function to perfom Maths.
+
+    # here a and b are parameters which we need to use in our function
+
+    def addition (a, b):
+    
+        return a + b
+
+    def subtract (a, b):
+    
+        return a - b
+
+    def multiply (a, b):
+    
+        return a * b
+
+    def division (a, b):
+    
+        return a / b
+    
+    
+    addition (5, 5) # 10
+    subtract (5, 5) # 0
+    multiply (5, 5) # 25
+    division (5, 5) #  1
