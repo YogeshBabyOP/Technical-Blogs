@@ -919,3 +919,19 @@ lambda arguments : expression (lambda is a keyword)
     subtract (5, 5) # 0
     multiply (5, 5) # 25
     division (5, 5) #  1
+
+## another example with passing arguments
+
+     def carColor (color1, color2, color3):
+          print("This is " + color1 + " color")
+          print("This is " + color2 + " color")
+          print("This is " + color3 + " color")
+
+     carColor (color1 = "red", color2 = "green", color3 = "blue")
+     (or) both are correct.
+     carColor("red", "green", "blue")
+     
+     # output, 
+     This is red color
+     This is green color
+     This is blue color
