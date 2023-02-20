@@ -865,10 +865,18 @@ lambda arguments : expression (lambda is a keyword)
 
 ## syntax 
 
-    def myFunction (arguments):
+    def function_name (arguments):
 
       // block of code
       return value
+
+> def is a keyword that indicates the start of a function definition.
+
+> function_name is the name of our function.
+
+> arguments are the inputs that your function will receive. If you give aruguments you must pass values when you calling the function.
+
+> return is a keyword that specifies the output of the function.
 
 ## example
 
