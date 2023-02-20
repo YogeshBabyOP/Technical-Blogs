@@ -861,13 +861,14 @@ lambda arguments : expression (lambda is a keyword)
 
 # functions
 
-> functions are some block of code which only runs when it was called. You can pass data, known as parameters, into a function.
+> In Python, a function is a block of code that performs a specific task. Functions help to break down complex programs into smaller, more manageable pieces. They also allow for reuse of code, making it easier to write and maintain programs. functions are some block of code which only runs when it was called. You can pass data, known as parameters, into a function.
 
 ## syntax 
 
-    def myFunction ():
+    def myFunction (arguments):
 
       // block of code
+      return value
 
 ## example
 
