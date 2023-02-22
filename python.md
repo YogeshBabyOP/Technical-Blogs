@@ -920,7 +920,7 @@ lambda arguments : expression (lambda is a keyword)
     multiply (5, 5) # 25
     division (5, 5) #  1
 
-## another example with passing arguments
+## another example with passing of arguments.
 
      def carColor (color1, color2, color3):
           print("This is " + color1 + " color")
