@@ -934,4 +934,4 @@ lambda arguments : expression (lambda is a keyword)
      # output, 
      This is red color
      This is green color
-     This is blue color
+     This is blue color.
