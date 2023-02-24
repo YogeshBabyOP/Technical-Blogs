@@ -935,3 +935,10 @@ lambda arguments : expression (lambda is a keyword)
      This is red color
      This is green color
      This is blue color.
+     
+# Basic Recursion
+
+> you now when we create a fucntion we call that function in the main funtion. But when we call that in its own function it means recursion.
+
+### Famous quote for Recursion  
+> Function calling itself ! XD 
