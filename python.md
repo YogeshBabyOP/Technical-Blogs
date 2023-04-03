@@ -942,3 +942,5 @@ lambda arguments : expression (lambda is a keyword)
 
 ### Famous quote for Recursion  
 > Function calling itself ! XD 
+
+> We can call our function any number of times, but you need to provide base case to stop calls at some point.
