@@ -948,3 +948,15 @@ lambda arguments : expression (lambda is a keyword)
 
 ![WhatsApp-Image-2020-07-07-at-9 37 31-AM](https://user-images.githubusercontent.com/114099821/229412924-3f81b62f-06a7-42b6-9a93-cb91fdab02da.jpg)
 
+
+### Example Program for factorial
+
+3.3 code
+
+        def factorial (n):
+            #base case, whenever we reached 1, just return it otherwise keep decreasing n;
+            if (n == 1):
+                return 1
+            return n * factorial (n - 1)
+            
+        print(factorial(5)) # output, 120
