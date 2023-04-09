@@ -954,7 +954,7 @@ lambda arguments : expression (lambda is a keyword)
 3.3 code
 
         def factorial (n):
-            #base case, whenever we reached 1, just return it otherwise keep decreasing n;
+            # base case, whenever we reached 1, just return it otherwise keep on going decreasing n;
             if (n == 1):
                 return 1
             return n * factorial (n - 1)
