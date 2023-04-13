@@ -960,3 +960,14 @@ lambda arguments : expression (lambda is a keyword)
             return n * factorial (n - 1)
             
         print(factorial(5)) # output, 120
+### Example Program for nth Fibonacci number
+
+3.4 code
+
+       def fibo (n):
+           # basically it means if n is 1 or 0 the answer is n itself, otherwise answer will be fibo of previous and before previous one
+           if (n < 2):
+              return n
+           return fibo (n - 1) + fibo (n - 2);
+           
+       print(fibo(5)) # output, 5
