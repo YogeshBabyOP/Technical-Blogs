@@ -1,60 +1,73 @@
-# This document consists of complete basics of mongoose and how to connect with backend serve
+## This document consists of complete basics of mongoose and how to connect with backend server.
+> Starting with installation.
 
-# install Mongoose from the command line using npm:
-$ npm install mongoose --save
+### install Mongoose from the command line using npm:
 
-// importing mongoose;
+#### npm install mongoose --save
+
+
+> we can start using mongoose in the vs code.
+
 const mongoose = require('mongoose');
 
 main().catch(err => console.log(err));
 
-async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/test');
-    // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
+async function main() { <br>
+     await mongoose.connect('mongodb://127.0.0.1:27017/test'); <br>
 }
 
-// creating the mongoose schema;
-const kittySchema = mongoose.Schema({
-    name:String,
-    nickname:String,
-    age:Number
-});
+### creating the mongoose schema; <br>
 
-// creating the mongoose model;
-const kitten = mongoose.model('kitten', kittySchema);
+         const kittySchema = mongoose.Schema({ 
+                name:String,  
+                nickname:String, 
+                age:Number 
+            }); 
 
-// this is the mongoose document and the arguments must be same as Schema;
-const kittyDocument = new kitten({
-    name:'kitten',
-    nickname:'kittu',
-    age:10,
-})
+### creating the mongoose model; <br>
 
-// adding speak functionality;
-kittySchema.methods.speak = function speak() {
-    const greeting = 'Meow name is ' + kittyDocument.name;
-    console.log(greeting);
-}
+           const kitten = mongoose.model('kitten', kittySchema);   
+           
+### creating mongoose document;
+> this is the mongoose document and the arguments must be same as Schema; <br>
 
-// adding age functionality;
-kittySchema.methods.getage = function getage() {
-    const myage = kittyDocument.age;
-    console.log(`kitty age is ${myage}`);
-}
+            const kittyDocument = new kitten({
+                name:'kitten', 
+                nickname:'kittu', 
+                age:10,
+            }) 
+            
+### adding methods / functions to our Schema;
 
-// after any modifications to the schemea, we need to create the new model;
-const kit = mongoose.model('kit', kittySchema);
+// adding speak functionality; <br>
 
-// creating the new Document after added the functions;
-const fluffyDocument = new kit({
-    name:'kit cat',
-    age:10
-})
+        kittySchema.methods.speak = function speak() {
+            const greeting = 'Meow name is ' + kittyDocument.name;
+            console.log(greeting);
+        }
 
-// to save the data to the DataBase we use save() method;
-fluffyDocument.save();
+// adding age functionality; <br>
 
-// since speak() is a function that we created on kittySchema, we have to call like this;
+        kittySchema.methods.getage = function getage() {
+            const myage = kittyDocument.age;
+            console.log(`kitty age is ${myage}`);
+        }
 
-fluffyDocument.speak(); // output, Meow name is kitten
-fluffyDocument.getage(); // output, kitty age is 10
+// after any modifications to the schemea, we need to create the new model; <br>
+
+        const kit = mongoose.model('kit', kittySchema); 
+
+// creating the new Document after added the functions; <br>
+
+        const fluffyDocument = new kit({
+            name:'kit cat',
+            age:10
+        })
+
+// to save the data to the DataBase we use save() method; <br>
+fluffyDocument.save(); <br>
+
+// since speak() is a function that we created, so have to call like this; <br>
+
+fluffyDocument.speak(); // output, Meow name is kitten <br>
+fluffyDocument.getage(); // output, kitty age is 10 <br>
