@@ -1,3 +1,4 @@
+# This document consists of complete basics of mongoose and how to connect with backend serve
 
 # install Mongoose from the command line using npm:
 $ npm install mongoose --save
@@ -10,8 +11,7 @@ main().catch(err => console.log(err));
 async function main() {
     await mongoose.connect('mongodb://127.0.0.1:27017/test');
     // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/test');` if your database has auth enabled
-  }
-
+}
 
 // creating the mongoose schema;
 const kittySchema = mongoose.Schema({
@@ -45,11 +45,11 @@ kittySchema.methods.getage = function getage() {
 // after any modifications to the schemea, we need to create the new model;
 const kit = mongoose.model('kit', kittySchema);
 
+// creating the new Document after added the functions;
 const fluffyDocument = new kit({
-    name:'kit kat',
+    name:'kit cat',
     age:10
 })
-
 
 // to save the data to the DataBase we use save() method;
 fluffyDocument.save();
@@ -58,7 +58,3 @@ fluffyDocument.save();
 
 fluffyDocument.speak(); // output, Meow name is kitten
 fluffyDocument.getage(); // output, kitty age is 10
-
-
-
-
