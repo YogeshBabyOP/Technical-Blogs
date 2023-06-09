@@ -15,8 +15,8 @@
     <?php
 
         $name = "Lucifer"; // string
-        $age = 1000; // integer
-        $GPA = 10.0; // float
+        $age = 1000;      // int
+        $GPA = 10.0;     // float
 
         echo "My name is {$name}, like the devil !<br>";  // output :  My name is Lucifer, like the devil !
         echo "I'm {$age} years old <br>";                // output : I'm 1000 years old
