@@ -88,10 +88,13 @@ https://www.jetbrains.com/pycharm/download/#section=windows
     print(x) # output will be "123", in terminal is doesn't show quotes, now we can perform all the string functions to x
     
     
-## String Fucntions
+## Strings (Data Stuctures)
 
+> A string is a data structure that represents a sequence of characters. It is an immutable data type, it means once you create a string you cannot change it.
 
-### String slicing
+### Some string methods in python... 
+
+## String slicing
 > Returns the sub string from the original string, python has 2 slicing methods
 ### one is using the built-in slice() method and another using the [:] array slice.
 
@@ -110,7 +113,6 @@ s[starting index : Ending index (inclusive) : number of indices to move]
     print(s[0:5])  # output, Hello  (0 th index to 5 th index)
     print(s[2:5])  # output, llo    (2 nd index to 5 th index)
     print(s[1:4])  # output, ell    (1 st index to 4 th index)
-
 
     print(s[0:len(b):2]) # output, Hlo ol!         (0 th index till the length of the string, with escapes every 2nd character)
     print(s[0:len(b)])   # output, Hello, World!   (0 th index till the length of the string)
@@ -381,7 +383,6 @@ It contains the following;
 > ~ (NOT)
 
 `we deep dive into bitwise operators in further topics (bit-manipulation)`
-
 
 # If-else  (Conditional Statements)
 
@@ -971,7 +972,7 @@ lambda arguments : expression (lambda is a keyword)
            return fibo (n - 1) + fibo (n - 2);
            
        print(fibo(5)) # output, 5
-# Arrays
+# Arrays (Data Stuctures)
 
 > An array is a Data Structure that stores more than one element at a time, note to remember that every element must be a same data type.
 
@@ -997,4 +998,3 @@ lambda arguments : expression (lambda is a keyword)
       BMW
       Rolls Roic
       Bugati
-      
