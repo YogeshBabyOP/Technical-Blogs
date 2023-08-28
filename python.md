@@ -971,3 +971,30 @@ lambda arguments : expression (lambda is a keyword)
            return fibo (n - 1) + fibo (n - 2);
            
        print(fibo(5)) # output, 5
+# Arrays
+
+> An array is a Data Structure that stores more than one element at a time, note to remember that every element must be a same data type.
+
+## example
+
+3.5 code
+
+      arr = [1, 2, 3, 4, 5]
+      for i in arr:
+          print(i)
+
+      output : 
+      1
+      2
+      3
+      4
+      5
+      arr = ["BMW", "Rolls Roice", "Bugati"]
+      for i in range(len(arr)):
+           print(arr[i])
+
+      output : 
+      BMW
+      Rolls Roic
+      Bugati
+      
