@@ -996,5 +996,5 @@ lambda arguments : expression (lambda is a keyword)
 
       output : 
       BMW
-      Rolls Roic
+      Rolls Roice
       Bugati
